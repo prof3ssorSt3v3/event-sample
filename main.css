@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-weight: 100;
+}
+html {
+  color-scheme: dark, light;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+section {
+  margin: 1rem;
+  padding: 1rem 3rem;
+  background-color: hsl(60, 20%, 90%);
+}
+
+.basics div {
+  outline: 2px solid cornflowerblue;
+  padding: 1rem;
+}
+.basics div:hover {
+  background-color: white;
+  outline-color: red;
+}
+.basics span {
+  font-weight: 500;
+}
+
+.card {
+  border: 1px solid #222;
+  background-color: hsl(60, 50%, 90%);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.card h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.card p {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+.card button {
+  background-color: #eee;
+  font-size: 1rem;
+  padding: 0.25rem 2rem;
+  border: 1px solid hsl(60, 60%, 40%);
+  box-shadow: 1px 1px 2px #999;
+  color: cadetblue;
+  cursor: pointer;
+}
+.card button:active {
+  box-shadow: inset 1px 1px 2px #999;
+}
