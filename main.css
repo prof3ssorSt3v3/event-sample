@@ -59,3 +59,27 @@ section {
 .card button:active {
   box-shadow: inset 1px 1px 2px #999;
 }
+
+.person {
+  list-style: none;
+  border: 2px solid #222;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.person h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.person h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.person p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.person span {
+  color: cadetblue;
+}

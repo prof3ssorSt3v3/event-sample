@@ -1,4 +1,18 @@
-function handleListClick(ev) {}
+function handleListClick(ev) {
+  let target = ev.target;
+  // console.log(target);
+  let li = target.closest('.person');
+  // console.log(li);
+  if (li) {
+    //they clicked somewhere inside the <li>
+    //unary plus operator - convert to a number
+    let id = +li.getAttribute('data-id');
+    console.log(typeof id, id);
+    alert(`Thanks for clicking person ${id}`);
+    let lat = +li.querySelector('span').textContent;
+    console.log(lat);
+  }
+}
 
 const listData = [
   {
